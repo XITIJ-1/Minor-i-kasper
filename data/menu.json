@@ -32,7 +32,7 @@
       "category": "coffee",
       "description": "Smooth latte with steamed milk and espresso",
       "price": 190,
-      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=500&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=500&h=400&fit=crop",
       "featured": true,
       "rating": 4.7
     },
@@ -42,7 +42,7 @@
       "category": "coffee",
       "description": "Strong and smooth americano",
       "price": 160,
-      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b3f7?w=500&h=400&fit=crop",
       "featured": false,
       "rating": 4.6
     },
@@ -52,7 +52,7 @@
       "category": "coffee",
       "description": "Perfect blend of coffee and chocolate",
       "price": 210,
-      "image": "https://images.unsplash.com/photo-1618164436241-4473940571f2?w=500&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&h=400&fit=crop",
       "featured": false,
       "rating": 4.8
     },
@@ -62,7 +62,7 @@
       "category": "coffee",
       "description": "Espresso marked with foamed milk",
       "price": 170,
-      "image": "https://images.unsplash.com/photo-1599639957043-966dda99e373?w=500&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=500&h=400&fit=crop",
       "featured": false,
       "rating": 4.7
     },
@@ -82,7 +82,7 @@
       "category": "food",
       "description": "Tender grilled chicken with fresh vegetables",
       "price": 420,
-      "image": "https://images.unsplash.com/photo-1562909291-d3fee0d55364?w=500&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1585238341710-4b4e6cefc688?w=500&h=400&fit=crop",
       "featured": true,
       "rating": 4.8
     },
@@ -102,7 +102,7 @@
       "category": "food",
       "description": "Creamy arborio rice with fresh mushrooms",
       "price": 500,
-      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1476124369162-f4978b08a0eb?w=500&h=400&fit=crop",
       "featured": false,
       "rating": 4.7
     },
@@ -212,7 +212,7 @@
       "category": "beverages",
       "description": "Rich hot chocolate with whipped cream",
       "price": 200,
-      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1544432415-c45a0a2872a7?w=500&h=400&fit=crop",
       "featured": false,
       "rating": 4.9
     },
@@ -222,7 +222,7 @@
       "category": "beverages",
       "description": "Chilled espresso with ice and cream",
       "price": 170,
-      "image": "https://images.unsplash.com/photo-1517668808822-9ebb02ae2a0e?w=500&h=400&fit=crop",
+      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=500&h=400&fit=crop",
       "featured": false,
       "rating": 4.6
     }
