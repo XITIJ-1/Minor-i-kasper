@@ -99,7 +99,7 @@ function validateForm(form) {
 
     // Check terms checkbox separately if it exists
     const termsCheckbox = form.querySelector('[name="terms"]');
-    if (termsCheckbox && !validateField('terms', termsCheckbox)) {
+    if (termsCheckbox && !validateField('terms', termsCheckbox, true)) {
         isValid = false;
     }
 
