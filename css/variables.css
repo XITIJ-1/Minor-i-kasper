@@ -1,0 +1,78 @@
+/* CSS Variables - Color Scheme & Spacing */
+:root {
+    /* Primary Colors */
+    --color-primary: #D4752E;
+    --color-primary-light: #E8934B;
+    --color-primary-dark: #B85A1F;
+    
+    /* Secondary Colors */
+    --color-secondary: #8B6F47;
+    --color-secondary-light: #A08960;
+    --color-secondary-dark: #6B5535;
+    
+    /* Neutral Colors */
+    --color-light: #F5F1E8;
+    --color-light-gray: #E8E3D8;
+    --color-gray: #D0C9B8;
+    --color-dark-gray: #7A7A7A;
+    --color-dark: #2A2A2A;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    
+    /* Accent Colors */
+    --color-success: #27AE60;
+    --color-warning: #F39C12;
+    --color-error: #E74C3C;
+    --color-info: #3498DB;
+    
+    /* Typography */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Poppins', sans-serif;
+    
+    /* Font Sizes */
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.5rem;
+    --font-size-2xl: 2rem;
+    --font-size-3xl: 2.5rem;
+    --font-size-4xl: 3rem;
+    
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 2.5rem;
+    --spacing-3xl: 3rem;
+    --spacing-4xl: 4rem;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1);
+    
+    /* Transitions */
+    --transition-fast: 150ms ease-in-out;
+    --transition-normal: 300ms ease-in-out;
+    --transition-slow: 500ms ease-in-out;
+    
+    /* Border Radius */
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.5rem;
+    --radius-full: 9999px;
+}
+
+/* Dark Mode Variables */
+body.dark-mode {
+    --color-light: #1F1F1F;
+    --color-light-gray: #2A2A2A;
+    --color-gray: #404040;
+    --color-dark: #E8E3D8;
+    --color-white: #1F1F1F;
+}

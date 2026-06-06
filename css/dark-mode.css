@@ -1,0 +1,128 @@
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #1F1F1F;
+    color: #E8E3D8;
+}
+
+body.dark-mode .navbar {
+    background-color: #2A2A2A;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .nav-links a {
+    color: #E8E3D8;
+}
+
+body.dark-mode .featured-card,
+body.dark-mode .testimonial-card,
+body.dark-mode .team-card {
+    background-color: #2A2A2A;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .featured-card h3,
+body.dark-mode .testimonial-card h4,
+body.dark-mode .team-card h3 {
+    color: #E8E3D8;
+}
+
+body.dark-mode .featured-card p,
+body.dark-mode .testimonial-text {
+    color: #B0A89D;
+}
+
+body.dark-mode .mission-card {
+    background-color: #2A2A2A;
+}
+
+body.dark-mode .mission-card h3 {
+    color: #E8E3D8;
+}
+
+body.dark-mode .mission-card p {
+    color: #B0A89D;
+}
+
+body.dark-mode .footer {
+    background-color: #0F0F0F;
+    color: #B0A89D;
+}
+
+body.dark-mode .footer-col h3,
+body.dark-mode .footer-col h4 {
+    color: #E8E3D8;
+}
+
+body.dark-mode .footer-col p,
+body.dark-mode .footer-col a {
+    color: #B0A89D;
+}
+
+body.dark-mode .footer-col a:hover {
+    color: #D4752E;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+    color: #E8E3D8;
+}
+
+body.dark-mode p {
+    color: #B0A89D;
+}
+
+body.dark-mode a {
+    color: #E8934B;
+}
+
+body.dark-mode a:hover {
+    color: #D4752E;
+}
+
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+    background-color: #2A2A2A;
+    color: #E8E3D8;
+    border: 1px solid #404040;
+}
+
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+    color: #7A7A7A;
+}
+
+body.dark-mode .form-group label {
+    color: #E8E3D8;
+}
+
+body.dark-mode .error-message {
+    color: #FF6B6B;
+}
+
+body.dark-mode .success-message {
+    color: #51CF66;
+}
+
+/* Dark Mode Moon Icon */
+body.dark-mode .dark-mode-toggle i::before {
+    content: '\f185'; /* Sun icon */
+}
+
+body.dark-mode .dark-mode-toggle {
+    color: #D4752E;
+}
+
+/* Smooth transitions for dark mode */
+body,
+body.dark-mode {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body * {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
