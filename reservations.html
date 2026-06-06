@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Make a reservation at Urban Cafe - Book your table today!">
+    <title>Reservations - Urban Cafe</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-coffee"></i>
+                    <span>Urban Cafe</span>
+                </div>
+                
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="reservations.html" class="active">Reservations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                
+                <div class="nav-right">
+                    <button class="dark-mode-toggle" id="darkModeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Make a Reservation</h1>
+        <p>Book your perfect table at Urban Cafe</p>
+    </section>
+
+    <!-- Reservations Section -->
+    <section class="reservations-section">
+        <div class="container">
+            <div class="reservations-wrapper">
+                <!-- Reservation Form -->
+                <div class="reservation-form-wrapper">
+                    <h2>Reservation Details</h2>
+                    <form class="reservation-form" id="reservationForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                            <span class="error-message" id="phoneError"></span>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Reservation Date *</label>
+                                <input type="date" id="date" name="date" required>
+                                <span class="error-message" id="dateError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="time">Reservation Time *</label>
+                                <input type="time" id="time" name="time" required>
+                                <span class="error-message" id="timeError"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="guests">Number of Guests *</label>
+                            <select id="guests" name="guests" required>
+                                <option value="">Select number of guests</option>
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="5">5 Guests</option>
+                                <option value="6">6 Guests</option>
+                                <option value="7">7 Guests</option>
+                                <option value="8">8+ Guests (Contact us)</option>
+                            </select>
+                            <span class="error-message" id="guestsError"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="requests">Special Requests</label>
+                            <textarea id="requests" name="requests" rows="4" placeholder="Any special requests or dietary requirements?"></textarea>
+                        </div>
+
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="terms" name="terms">
+                            <label for="terms">I agree to the reservation terms and conditions</label>
+                            <span class="error-message" id="termsError"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Reserve Table</button>
+                    </form>
+                </div>
+
+                <!-- Info Box -->
+                <div class="reservation-info">
+                    <h3>Reservation Information</h3>
+                    
+                    <div class="info-card">
+                        <h4><i class="fas fa-clock"></i> Opening Hours</h4>
+                        <p><strong>Monday - Friday:</strong> 7:00 AM - 10:00 PM</p>
+                        <p><strong>Saturday - Sunday:</strong> 8:00 AM - 11:00 PM</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h4><i class="fas fa-users"></i> Group Bookings</h4>
+                        <p>For groups of 8 or more, please contact us directly at +977-1-4123456</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h4><i class="fas fa-phone"></i> Contact Us</h4>
+                        <p>Phone: +977-1-4123456</p>
+                        <p>Email: reservations@urbancafe.com</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h4><i class="fas fa-map-marker-alt"></i> Location</h4>
+                        <p>Thamel, Kathmandu</p>
+                        <p>Nepal</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h4><i class="fas fa-info-circle"></i> Cancellation Policy</h4>
+                        <p>Free cancellation up to 24 hours before your reservation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Urban Cafe</h3>
+                    <p>Discover the perfect blend of great coffee, delicious food, and welcoming ambiance.</p>
+                    <div class="social-links">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Hours</h4>
+                    <p>Monday - Friday: 7:00 AM - 10:00 PM</p>
+                    <p>Saturday - Sunday: 8:00 AM - 11:00 PM</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> +977-1-4123456</p>
+                    <p><i class="fas fa-envelope"></i> info@urbancafe.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Urban Cafe. All rights reserved. | Designed & Developed by Kshitiz Phuyal</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/dark-mode.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>
