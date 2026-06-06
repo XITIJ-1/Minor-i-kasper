@@ -2,35 +2,11 @@
   "team": [
     {
       "id": 1,
-      "name": "Rahul Gupta",
-      "position": "Manager & Owner",
-      "image": "https://i.pravatar.cc/300?img=10",
-      "bio": "Passionate about coffee and creating memorable experiences for guests.",
-      "experience": "10+ years in hospitality"
-    },
-    {
-      "id": 2,
-      "name": "Priya Singh",
-      "position": "Head Barista",
-      "image": "https://i.pravatar.cc/300?img=11",
-      "bio": "Expert latte artist and coffee enthusiast with a passion for perfection.",
-      "experience": "7 years experience"
-    },
-    {
-      "id": 3,
-      "name": "Aryan Patel",
-      "position": "Chef",
-      "image": "https://i.pravatar.cc/300?img=12",
-      "bio": "Creates delicious dishes with fresh, locally sourced ingredients.",
-      "experience": "8 years culinary experience"
-    },
-    {
-      "id": 4,
-      "name": "Neha Sharma",
-      "position": "Head Chef",
-      "image": "https://i.pravatar.cc/300?img=13",
-      "bio": "Specializes in fusion cuisine blending traditional and modern flavors.",
-      "experience": "12 years in professional kitchens"
+      "name": "Xitij Phuyal",
+      "position": "Founder & Owner",
+      "image": "https://i.imgur.com/ifMsEHN.jpg",
+      "bio": "A passionate entrepreneur and coffee enthusiast dedicated to creating Urban Cafe as a sanctuary for coffee lovers and food enthusiasts. With a vision to blend exceptional quality with a welcoming atmosphere, Xitij has built a space where community, creativity, and culinary excellence come together. His commitment to sourcing the finest ingredients and delivering outstanding customer experiences drives everything Urban Cafe stands for.",
+      "experience": "Founder of Urban Cafe"
     }
   ]
 }
