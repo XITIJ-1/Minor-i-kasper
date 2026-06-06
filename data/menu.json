@@ -1,0 +1,230 @@
+{
+  "categories": {
+    "coffee": "Coffee",
+    "food": "Food",
+    "desserts": "Desserts",
+    "beverages": "Beverages"
+  },
+  "items": [
+    {
+      "id": 1,
+      "name": "Espresso",
+      "category": "coffee",
+      "description": "Classic Italian espresso with rich, bold flavor",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1514432324607-2e467f4af3e9?w=500&h=400&fit=crop",
+      "featured": true,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "name": "Cappuccino",
+      "category": "coffee",
+      "description": "Creamy cappuccino with velvety milk foam",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1517668808822-9ebb02ae2a0e?w=500&h=400&fit=crop",
+      "featured": true,
+      "rating": 4.9
+    },
+    {
+      "id": 3,
+      "name": "Latte",
+      "category": "coffee",
+      "description": "Smooth latte with steamed milk and espresso",
+      "price": 190,
+      "image": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=500&h=400&fit=crop",
+      "featured": true,
+      "rating": 4.7
+    },
+    {
+      "id": 4,
+      "name": "Americano",
+      "category": "coffee",
+      "description": "Strong and smooth americano",
+      "price": 160,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&h=400&fit=crop",
+      "featured": false,
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "name": "Mocha",
+      "category": "coffee",
+      "description": "Perfect blend of coffee and chocolate",
+      "price": 210,
+      "image": "https://images.unsplash.com/photo-1618164436241-4473940571f2?w=500&h=400&fit=crop",
+      "featured": false,
+      "rating": 4.8
+    },
+    {
+      "id": 6,
+      "name": "Macchiato",
+      "category": "coffee",
+      "description": "Espresso marked with foamed milk",
+      "price": 170,
+      "image": "https://images.unsplash.com/photo-1599639957043-966dda99e373?w=500&h=400&fit=crop",
+      "featured": false,
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "name": "Caesar Salad",
+      "category": "food",
+      "description": "Fresh romaine lettuce with parmesan and croutons",
+      "price": 350,
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=400&fit=crop",
+      "featured": true,
+      "rating": 4.6
+    },
+    {
+      "id": 8,
+      "name": "Grilled Chicken Sandwich",
+      "category": "food",
+      "description": "Tender grilled chicken with fresh vegetables",
+      "price": 420,
+      "image": "https://images.unsplash.com/photo-1562909291-d3fee0d55364?w=500&h=400&fit=crop",
+      "featured": true,
+      "rating": 4.8
+    },
+    {
+      "id": 9,
+      "name": "Pasta Carbonara",
+      "category": "food",
+      "description": "Classic Italian pasta with creamy sauce",
+      "price": 480,
+      "image": "https://images.unsplash.com/photo-1612874742237-6526221fcf4f?w=500&h=400&fit=crop",
+      "featured": false,
+      "rating": 4.9
+    },
+    {
+      "id": 10,
+      "name": "Mushroom Risotto",
+      "category": "food",
+      "description": "Creamy arborio rice with fresh mushrooms",
+      "price": 500,
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500&h=400&fit=crop",
+      "featured": false,
+      "rating": 4.7
+    },
+    {
+      "id": 11,
+      "name": "Avocado Toast",
+      "category": "food",
+      "description": "Whole grain toast with creamy avocado and herbs",
+      "price": 380,
+      "image": "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=500&h=400&fit=crop",
+      "featured": true,
+      "rating": 4.8
+    },
+    {
+      "id": 12,
+      "name": "Panini Supreme",
+      "category": "food",
+      "description": "Grilled sandwich with mozzarella and prosciutto",
+      "price": 450,
+      "image": "https://images.unsplash.com/photo-1528735602780-cf6f53cf6537?w=500&h=400&fit=crop",
+      "featured": false,
+      "rating": 4.6
+    },
+    {
+      "id": 13,
+      "name": "Chocolate Cake",
+      "category": "desserts",
+      "description": "Rich and moist chocolate cake with ganache",
+      "price": 280,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&h=400&fit=crop",
+      "featured": true,
+      "rating": 4.9
+    },
+    {
+      "id": 14,
+      "name": "Cheesecake",
+      "category": "desserts",
+      "description": "New York style cheesecake with berry topping",
+      "price": 320,
+      "image": "https://images.unsplash.com/photo-1505252585461-04db1267ae5b?w=500&h=400&fit=crop",
+      "featured": false,
+      "rating": 4.8
+    },
+    {
+      "id": 15,
+      "name": "Tiramisu",
+      "category": "desserts",
+      "description": "Traditional Italian tiramisu with mascarpone",
+      "price": 300,
+      "image": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=500&h=400&fit=crop",
+      "featured": true,
+      "rating": 4.9
+    },
+    {
+      "id": 16,
+      "name": "Brownies",
+      "category": "desserts",
+      "description": "Fudgy brownies with walnuts",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=500&h=400&fit=crop",
+      "featured": false,
+      "rating": 4.7
+    },
+    {
+      "id": 17,
+      "name": "Macarons",
+      "category": "desserts",
+      "description": "Assorted French macarons (6 pieces)",
+      "price": 250,
+      "image": "https://images.unsplash.com/photo-1569718212e3-3e40a9ce0d31?w=500&h=400&fit=crop",
+      "featured": false,
+      "rating": 4.8
+    },
+    {
+      "id": 18,
+      "name": "Iced Tea",
+      "category": "beverages",
+      "description": "Refreshing iced tea with lemon",
+      "price": 140,
+      "image": "https://images.unsplash.com/photo-1556742212-5b321f3c261d?w=500&h=400&fit=crop",
+      "featured": false,
+      "rating": 4.5
+    },
+    {
+      "id": 19,
+      "name": "Fresh Juice",
+      "category": "beverages",
+      "description": "Freshly squeezed orange juice",
+      "price": 180,
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd1f3cda?w=500&h=400&fit=crop",
+      "featured": true,
+      "rating": 4.7
+    },
+    {
+      "id": 20,
+      "name": "Smoothie Bowl",
+      "category": "beverages",
+      "description": "Thick smoothie with granola and fruits",
+      "price": 320,
+      "image": "https://images.unsplash.com/photo-1590080876795-c6c7797c0c91?w=500&h=400&fit=crop",
+      "featured": true,
+      "rating": 4.8
+    },
+    {
+      "id": 21,
+      "name": "Hot Chocolate",
+      "category": "beverages",
+      "description": "Rich hot chocolate with whipped cream",
+      "price": 200,
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&h=400&fit=crop",
+      "featured": false,
+      "rating": 4.9
+    },
+    {
+      "id": 22,
+      "name": "Iced Coffee",
+      "category": "beverages",
+      "description": "Chilled espresso with ice and cream",
+      "price": 170,
+      "image": "https://images.unsplash.com/photo-1517668808822-9ebb02ae2a0e?w=500&h=400&fit=crop",
+      "featured": false,
+      "rating": 4.6
+    }
+  ]
+}

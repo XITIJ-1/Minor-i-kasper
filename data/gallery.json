@@ -1,0 +1,100 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "title": "Cozy Corner",
+      "description": "Our cozy seating area with comfortable couches",
+      "src": "https://images.unsplash.com/photo-1493857671505-72967e2e2760?w=800&h=600&fit=crop",
+      "alt": "Urban Cafe interior - cozy corner",
+      "category": "ambiance"
+    },
+    {
+      "id": 2,
+      "title": "Coffee Art",
+      "description": "Beautiful latte art created by our skilled baristas",
+      "src": "https://images.unsplash.com/photo-1517668808822-9ebb02ae2a0e?w=800&h=600&fit=crop",
+      "alt": "Coffee latte art",
+      "category": "coffee"
+    },
+    {
+      "id": 3,
+      "title": "Fresh Pastries",
+      "description": "Daily fresh baked pastries and baked goods",
+      "src": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&h=600&fit=crop",
+      "alt": "Fresh pastries display",
+      "category": "food"
+    },
+    {
+      "id": 4,
+      "title": "Window View",
+      "description": "Enjoy your coffee while watching the city",
+      "src": "https://images.unsplash.com/photo-1495474472920-4c876617f400?w=800&h=600&fit=crop",
+      "alt": "Cafe window view",
+      "category": "ambiance"
+    },
+    {
+      "id": 5,
+      "title": "Signature Dish",
+      "description": "Our famous Avocado Toast with poached eggs",
+      "src": "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=800&h=600&fit=crop",
+      "alt": "Avocado toast dish",
+      "category": "food"
+    },
+    {
+      "id": 6,
+      "title": "Espresso Shot",
+      "description": "Perfect espresso shot served fresh",
+      "src": "https://images.unsplash.com/photo-1514432324607-2e467f4af3e9?w=800&h=600&fit=crop",
+      "alt": "Espresso shot",
+      "category": "coffee"
+    },
+    {
+      "id": 7,
+      "title": "Team at Work",
+      "description": "Our dedicated team ensuring quality service",
+      "src": "https://images.unsplash.com/photo-1559027615-cd2628902d4a?w=800&h=600&fit=crop",
+      "alt": "Cafe team working",
+      "category": "ambiance"
+    },
+    {
+      "id": 8,
+      "title": "Chocolate Dessert",
+      "description": "Decadent chocolate cake with ganache",
+      "src": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&h=600&fit=crop",
+      "alt": "Chocolate cake",
+      "category": "food"
+    },
+    {
+      "id": 9,
+      "title": "Warm Ambiance",
+      "description": "Warm lighting creates a welcoming atmosphere",
+      "src": "https://images.unsplash.com/photo-1522868914410-53f06b0b761d?w=800&h=600&fit=crop",
+      "alt": "Warm cafe lighting",
+      "category": "ambiance"
+    },
+    {
+      "id": 10,
+      "title": "Cappuccino Perfection",
+      "description": "Creamy cappuccino with perfect milk foam",
+      "src": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&h=600&fit=crop",
+      "alt": "Cappuccino coffee",
+      "category": "coffee"
+    },
+    {
+      "id": 11,
+      "title": "Healthy Smoothie",
+      "description": "Fresh fruit smoothie bowl with granola",
+      "src": "https://images.unsplash.com/photo-1590080876795-c6c7797c0c91?w=800&h=600&fit=crop",
+      "alt": "Smoothie bowl",
+      "category": "food"
+    },
+    {
+      "id": 12,
+      "title": "Tiramisu Bliss",
+      "description": "Authentic Italian tiramisu with cocoa powder",
+      "src": "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=800&h=600&fit=crop",
+      "alt": "Tiramisu dessert",
+      "category": "food"
+    }
+  ]
+}
