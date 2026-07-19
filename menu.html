@@ -81,6 +81,11 @@
             <div class="menu-grid" id="menuItems">
                 <!-- Menu items will be loaded here by JavaScript -->
             </div>
+
+            <!-- Fallback if menu image paths are broken -->
+            <noscript>
+                <p style="text-align:center;color:#7A7A7A;margin-top:1rem;">Enable JavaScript to view menu items.</p>
+            </noscript>
         </div>
     </section>
 
@@ -132,5 +137,69 @@
     <script src="js/main.js"></script>
     <script src="js/dark-mode.js"></script>
     <script src="js/menu.js"></script>
+
+    <!-- Defensive image fallback for broken/mismatched menu image names -->
+    <script>
+        (function () {
+            const FALLBACK_IMG = 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop';
+
+            function normalizeAndRetry(img) {
+                if (!img || img.dataset.fixed === '1') return;
+                const original = img.getAttribute('src') || '';
+                if (!original) {
+                    img.src = FALLBACK_IMG;
+                    img.dataset.fixed = '1';
+                    return;
+                }
+
+                // Try URL-encoded variant first (handles spaces/special chars)
+                const encoded = original
+                    .split('/')
+                    .map(part => encodeURIComponent(decodeURIComponent(part)))
+                    .join('/');
+
+                if (encoded !== original && !img.dataset.encodedTried) {
+                    img.dataset.encodedTried = '1';
+                    img.src = encoded;
+                    return;
+                }
+
+                // Try lowercase filename variant (common case mismatch on some hosts)
+                if (!img.dataset.lowercaseTried) {
+                    img.dataset.lowercaseTried = '1';
+                    const parts = original.split('/');
+                    parts[parts.length - 1] = parts[parts.length - 1].toLowerCase();
+                    const lower = parts.join('/');
+                    if (lower !== original) {
+                        img.src = lower;
+                        return;
+                    }
+                }
+
+                // Final fallback
+                img.src = FALLBACK_IMG;
+                img.dataset.fixed = '1';
+            }
+
+            function bindImageHandlers(root) {
+                const images = (root || document).querySelectorAll('#menuItems img, .menu-grid img, .featured-card img');
+                images.forEach(img => {
+                    if (img.dataset.errBound === '1') return;
+                    img.dataset.errBound = '1';
+                    img.addEventListener('error', function () {
+                        normalizeAndRetry(this);
+                    });
+                });
+            }
+
+            // Initial bind
+            bindImageHandlers(document);
+
+            // Re-bind after JS renders menu cards
+            const menuRoot = document.getElementById('menuItems') || document.body;
+            const observer = new MutationObserver(() => bindImageHandlers(menuRoot));
+            observer.observe(menuRoot, { childList: true, subtree: true });
+        })();
+    </script>
 </body>
 </html>
